@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5736a25c8d240ca886ef924e222c100, type: 3}
+  m_Name: Blue
+  m_EditorClassIdentifier: 
+  budData:
+    shape: {fileID: 11400000, guid: f625c972e2d4b4449a5bb237de35294b, type: 2}
+    material: {fileID: 2100000, guid: c8feb76be51714a42ae3639940459eab, type: 2}
+    mesh: {fileID: 0}
+    shadowCastingMode: 1
+    receiveShadows: 1
+  petalData:
+    shape: {fileID: 11400000, guid: f625c972e2d4b4449a5bb237de35294b, type: 2}
+    material: {fileID: 2100000, guid: 75164c0d70b7748489379c8da083e6ca, type: 2}
+    mesh: {fileID: 0}
+    shadowCastingMode: 1
+    receiveShadows: 1
+  leafData:
+    shape: {fileID: 11400000, guid: f625c972e2d4b4449a5bb237de35294b, type: 2}
+    material: {fileID: 2100000, guid: 13ea5872fb0b66f44bb4d8f77cb6b2e5, type: 2}
+    mesh: {fileID: 0}
+    shadowCastingMode: 1
+    receiveShadows: 1
+  height: 2
+  leafCount: 6
+  leafScaleRange: {x: 0.2, y: 0.825}
+  leafSegmentRange: {x: 0.2, y: 0.92}
+  stemData:
+    material: {fileID: 2100000, guid: 0ef8e60f171560e4aab1e8cc0ec35614, type: 2}
+    wResolution: 10
+    hResolution: 8
+    radius: 0.012
+    bend: 0.05
+    shadowCastingMode: 1
+    receiveShadows: 1
+  c: 0.0248
+  n: 57
+  m: 7
+  scale: 0.436
+  min: 0.026
+  angle: 88.5
+  angleScale: 0.445
+  offset: 0.128
+  seed: 0
